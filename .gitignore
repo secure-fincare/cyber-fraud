@@ -1,0 +1,24 @@
+# Rust
+/target
+**/target
+Cargo.lock
+!core/engine-rust/Cargo.lock
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.mypy_cache/
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local data and secrets
+.env
+*.sqlite
+*.db
+secrets/
